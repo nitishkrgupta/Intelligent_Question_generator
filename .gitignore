@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Jupyter & notebooks ---
+.ipynb_checkpoints
+*.ipynb_save
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Logs & cache ---
+*.log
+*.out
+*.err
+*.tmp
+*.swp
+.DS_Store
+.cache/
+.pytest_cache/
+
+# --- Model/large files (if any) ---
+*.pth
+*.pt
+*.h5
+*.onnx
+*.ckpt
+
+# --- IDE/editor specific ---
+.vscode/
+.idea/
+*.code-workspace
